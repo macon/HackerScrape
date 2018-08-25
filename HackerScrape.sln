@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerScrape.CLI", "src\HackerScrape.CLI\HackerScrape.CLI.csproj", "{138774DC-1EED-45EB-AA57-2AFD2E05984F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AE754A08-40F8-4AD9-B2A3-5BE2CFB298AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9FE699D0-249F-4B4B-8AFE-C39E877A66E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerScrape.App", "src\HackerScrape.App\HackerScrape.App.csproj", "{AF3023D0-7D22-4ED7-8BBD-8461ECE09A1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{138774DC-1EED-45EB-AA57-2AFD2E05984F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{138774DC-1EED-45EB-AA57-2AFD2E05984F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{138774DC-1EED-45EB-AA57-2AFD2E05984F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{138774DC-1EED-45EB-AA57-2AFD2E05984F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF3023D0-7D22-4ED7-8BBD-8461ECE09A1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF3023D0-7D22-4ED7-8BBD-8461ECE09A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF3023D0-7D22-4ED7-8BBD-8461ECE09A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF3023D0-7D22-4ED7-8BBD-8461ECE09A1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{138774DC-1EED-45EB-AA57-2AFD2E05984F} = {AE754A08-40F8-4AD9-B2A3-5BE2CFB298AD}
+		{AF3023D0-7D22-4ED7-8BBD-8461ECE09A1F} = {AE754A08-40F8-4AD9-B2A3-5BE2CFB298AD}
+	EndGlobalSection
+EndGlobal
