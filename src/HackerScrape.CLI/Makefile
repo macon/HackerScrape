@@ -10,6 +10,7 @@ run-mac: cleanup restore publish-mac run-mac-exe
 
 cleanup:
 	dotnet clean
+	rm ./pub/hackernews*
 
 restore:
 	dotnet restore
@@ -22,10 +23,10 @@ publish-fdd:
 	
 publish-win:
 	dotnet publish -o pub -r win10-x64 --self-contained
-	ren ./pub/HackerScrape.CLI.exe ./pub/hackernews.exe
-	
+	cmd /C ren .\pub\HackerScrape.CLI.exe hackernews.exe
+
 run-win-exe:
-	./pub/hackernews.exe --posts 25
+	.\pub\hackernews.exe --posts 25
 
 run-mac-exe:
 	./pub/hackernews --posts 25
