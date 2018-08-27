@@ -4,7 +4,7 @@ HackerScrape is a HackerNews scraper.
 
 ## Build
 
-####Pre-requisites
+#### Pre-requisites
 You'll need .Net Core 2.1 installed.
 
 I've included a `Makefile` for convenience. Please install `Make` for your platform before building. Alternatively just run the `Makefile` commands direclty.
