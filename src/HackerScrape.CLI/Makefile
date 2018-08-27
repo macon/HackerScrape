@@ -22,15 +22,17 @@ publish-fdd:
 	
 publish-win:
 	dotnet publish -o pub -r win10-x64 --self-contained
+	ren ./pub/HackerScrape.CLI.exe ./pub/hackernews.exe
 	
 run-win-exe:
-	./pub/HackerScrape.CLI.exe --posts 25
+	./pub/hackernews.exe --posts 25
 
 run-mac-exe:
-	./pub/HackerScrape.CLI --posts 25
+	./pub/hackernews --posts 25
 
 publish-mac:
 	dotnet publish -o pub -r osx-x64 --self-contained
+	cp ./pub/HackerScrape.CLI ./pub/hackernews
 
 docker-build:
 	docker build -t hackerscrape:1.0 .
