@@ -64,8 +64,9 @@ or modify them to satisfy the rules. As it was more complicated to omit failed i
 of items required, I went with the latter approach to modify items to fit the rules.
 
 * I've used the ScrapySharp library to help with HTML parsing and CSS selection.
-* XUnit for unit tests (simple and well supported)
-* Shouldly for test assertions (could have been FluentAssertions)
+* XUnit for unit tests (simple and well supported).
+* Shouldly for test assertions (could have been FluentAssertions).
+* If the cli/args were more complicated I would probably have used a 3rd party cli framework.
 
 I've described the approach taken here rather than litter the code with comments. I'm not a fan of
 exhaustive code commenting unless I'm using a 3rd party tool (e.g. Swagger) to produce API docs etc. 
